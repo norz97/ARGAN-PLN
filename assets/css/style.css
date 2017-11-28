@@ -1,0 +1,19 @@
+body {
+font-size:13px;
+}
+
+.sidebar, body > .navbar-collapse {
+	width:200px;
+	font-weight:200;
+}
+
+.sidebar .sidebar-wrapper, body > .navbar-collapse .sidebar-wrapper {
+	width:200px;
+}
+
+.sidebar .nav li > a, body > .navbar-collapse .nav li > a {
+	margin:5px 10px;
+}
+.sidebar .nav li > a, body > .navbar-collapse .nav li > a {
+	width: calc(100% - 200px);
+}
